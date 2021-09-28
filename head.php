@@ -21,7 +21,20 @@
 </head>
 <body>
   
-<nav>
-  <a href="index.ssg.php" class="logo">로고</a>
-  <a href="login.ssg.php" class="logo">로그인</a>
-</nav>
+<div class="site-wrap con-min-width">
+  <header class="top-bar con-min-width bg-red-500">
+    <div class="flex justify-end pr-10">
+      <nav class="menu-box-1">
+        <ul class="flex">
+          <li><a href="#" class="block p-3"><span>내용</span></a></li>
+          <li><a href="#" class="block p-3"><span>내용</span></a></li>
+          <li><a href="#" class="block p-3"><span>내용</span></a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="con con-padd mx-auto">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores molestiae amet commodi aut! Labore eligendi veritatis non id quam! Voluptatibus tenetur ex voluptatem id autem vero rerum officia voluptates numquam.
+    </div>
+  </header>
+
+  <main>
