@@ -34,13 +34,3 @@
 .section-min-height {
   min-height:800px;
 }
-
-main {
-  overflow: auto;
-  scroll-snap-type: y mandatory;
-  height:100vh;
-}
-
-main > * {
-  scroll-snap-align: start;
-}
